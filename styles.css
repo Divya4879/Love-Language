@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffc5ef;
-    color: #333;
+    color: #380505;
     line-height: 1.6;
 }
 
@@ -24,7 +24,7 @@ section {
     background-color: #fff;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 12px rgb(118, 2, 2);
 }
 
 h1,h2 {
@@ -99,7 +99,7 @@ h2{
     transition: min-height 0.3s ease;
     min-height: 300px; /* Base height */
     overflow: visible;
-    background-image: url("images/giphy.gif");
+    background-image: url("images/1st.gif");
     background-size: cover;
     background-position: center;
 }
@@ -110,7 +110,7 @@ h2{
 }
 
 #quiz-section{
-    background-image: url("images/LOagfC.gif");
+    background-image: url("images/quiz.gif");
     background-size: cover;
 }
 .card-example {
@@ -256,7 +256,7 @@ h2{
 }
 
 #results-section{
-    background-image: url("images/LJxnAg.gif");
+    background-image: url("images/result-chart.gif");
     background-size: cover;
 }
 
@@ -265,7 +265,7 @@ h2{
 }
 
 #stories{
-    background-image:url("images/3969.jpg");
+    background-image:url("images/stories.jpg");
     background-size:cover;
 }
 
@@ -364,7 +364,7 @@ h2{
 }
 
 #daily-challenge{
-    background-image: url("images/jc7-TS.gif");
+    background-image: url("images/daily-challenge.gif");
     background-size: cover;
 }
 
