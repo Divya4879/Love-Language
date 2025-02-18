@@ -321,23 +321,25 @@ touchStory.querySelector('.expand-btn').addEventListener('click', function() {
 
 
 // Map interaction
-const regionMarkers = document.querySelectorAll('.marker');
+// Map Interactions
 const regionInfo = document.getElementById('region-info');
+const regionData = {
+    asia: "In many Asian cultures, love is often expressed through acts of service and respect for family. In Japan, 'omoiyari' (thoughtful consideration) is valued, while in India, 'seva' (selfless service) shows love.",
+    europe: "Europeans often emphasize romantic gestures and quality time. French 'amour fou' (crazy love) celebrates passion, while Nordic countries value 'hygge' - cozy quality time together.",
+    americas: "In North America, verbal affirmations are common. Latin American cultures emphasize physical touch and family bonds through 'abrazos' (hugs) and 'besos' (kisses).",
+    africa: "Many African cultures express love through community support. In Nigeria, 'ife' represents deep love, while Xhosa traditions use 'ukutya' (shared meals) to show care."
+};
 
-regionMarkers.forEach(marker => {
-    marker.addEventListener('click', () => {
-        const region = marker.dataset.region;
-        regionInfo.textContent = `Love expressions in ${region}: Loading...`;
-        // Simulating data fetch
+document.querySelectorAll('.marker').forEach(marker => {
+    marker.addEventListener('click', function() {
+        const region = this.dataset.region;
+        regionInfo.innerHTML = `<strong>${this.textContent}:</strong> ${regionData[region]}`;
+        regionInfo.style.backgroundColor = '#e74c3c';
+        regionInfo.style.color = 'white';
         setTimeout(() => {
-            const expressions = {
-                asia: "In many Asian cultures, love is often expressed through acts of service and respect for family bonds.",
-                europe: "European expressions of love often involve romantic gestures, quality time, and verbal affirmations.",
-                americas: "In the Americas, love languages vary widely but often include physical touch and words of affirmation.",
-                africa: "African expressions of love often emphasize community support, shared experiences, and acts of service."
-            };
-            regionInfo.textContent = expressions[region];
-        }, 500);
+            regionInfo.style.backgroundColor = '';
+            regionInfo.style.color = '';
+        }, 2000);
     });
 });
 
