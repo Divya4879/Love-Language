@@ -176,7 +176,6 @@ options.forEach((option, index) => {
 });
 
 // Stories data
-// Stories data
 const stories = {
     words: {
         preview: "A story about the impact of kind words...",
@@ -376,7 +375,7 @@ newChallengeBtn.addEventListener('click', getNewChallenge);
 // Initialize with a random challenge
 getNewChallenge();
 
-// Social share buttons
+// Social media share buttons
 const shareButtons = document.querySelectorAll('.share-btn');
 
 // Add Font Awesome dynamically
