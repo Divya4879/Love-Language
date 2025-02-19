@@ -5,7 +5,7 @@ A beautiful and interactive website to help users discover and understand their 
 
 ## Demo
 
-Try it out at:- [LoveLanguage Discovery](https://divya4879.github.io/Love-Language)
+Try it out at:- [Love Language Discovery](https://divya4879.github.io/Love-Language)
 
 ![Love Language Discovery Screenshot](https://sjc.microlink.io/sbcQ5ZY8RyiHzhBk3xD95yTZKzhu9DnE9oD8y9heWitAXz7Y_8O5rV7JysKAuFR8qkvznT8orYzK1B0ZIYIy4A.jpeg)
 
