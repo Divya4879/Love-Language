@@ -2,6 +2,11 @@
 
 A beautiful and interactive website to help users discover and understand their primary love language. This project helps individuals better understand how they give and receive love through an engaging quiz, stories, and daily challenges.
 
+
+## Demo
+
+Try it out at:- [LoveLanguage Discovery](https://divya4879.github.io/Love-Language)
+
 ![Love Language Discovery Screenshot](https://sjc.microlink.io/sbcQ5ZY8RyiHzhBk3xD95yTZKzhu9DnE9oD8y9heWitAXz7Y_8O5rV7JysKAuFR8qkvznT8orYzK1B0ZIYIy4A.jpeg)
 
 ## Features
@@ -59,25 +64,13 @@ This project follows WCAG 2.1 guidelines and implements various accessibility fe
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+Divya- [My X Handle](https://x.com/DivsinghDev)
 
-Project Link: [https://github.com/yourusername/love-language-discovery](https://github.com/yourusername/love-language-discovery)
+Project Link: [https://github.com/yourusername/love-language-discovery](https://github.com/Divya4879/love-language-discovery)
 
-## Acknowledgments
-
-- The Five Love Languages by Gary Chapman
-- [Font Awesome](https://fontawesome.com) for icons
-- [Google Fonts](https://fonts.google.com) for typography
-- All contributors who have helped to improve this project
+## 💖 Credits
+Created with love by [Divya](https://x.com/DivsinghDev)
